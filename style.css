@@ -9,10 +9,9 @@ body {
   width: 600px;
   height: 650px;
   margin-top: 50px;
-  position: absolute;
   background: transparent;
-  transform: translate(-50, -50);
-  margin-left: 55%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 img {
