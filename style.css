@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: sans-serif;
+  background-position: top;
+}
+.mainpage {
+  width: 600px;
+  height: 650px;
+  margin-top: 50px;
+  position: absolute;
+  background: transparent;
+  transform: translate(-50, -50);
+  margin-left: 55%;
+}
+
+img {
+  width: 80%;
+  height: 50%;    
+  display: inherit;  
+}
+
+.login {
+  text-align: center;
+}
+
+.login input[type="text"], input[type="password"] {
+  outline: none;
+  border: none;
+  background: transparent;
+  border-bottom: 3px solid #e3e3e3;
+  font-family: 'Patrick Hand', cursive;
+  color: white;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  width: 80%;
+  height: 50px;
+  padding-left: 20px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.login input[type="text"]:focus, input[type="password"]:focus {
+ border-bottom: 3px solid #56bcf9; 
+ width: 85%;
+ transition-duration: .5s;
+}
+
+.maintitle {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 46px;
+  color: white;
+  line-height: 1.2;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding-bottom: 54px;
+  padding-top: 40px;
+}
+
+.button {
+  border: none;
+  outline: none;
+  background: none;
+  width: 60%;
+  height: 55px;
+  border-radius: 10px;
+  border: solid #56bcf9;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 7px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #56bcf9;
+  letter-spacing: 15px;
+  font-size: 25px;
+  transition-duration: .50s;
+}
+
+.txt1 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 16px;
+  color: #999999;
+}
+
+.txt2 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 16px;
+  color: #666666;
+}
+
+.forgot {
+  margin-bottom: 4px;  
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #56bcf9;
+  transition-duration: .4s;
+}
